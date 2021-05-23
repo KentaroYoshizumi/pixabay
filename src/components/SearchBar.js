@@ -7,6 +7,7 @@ const SearchBar=({ onSubmit }) => {
       onSubmit(term);
     };
 return (
+<div className='ui segment'> 
 <form onSubmit={onFormSubmit} className='ui form'>
   <div className='field'>
     <label>Photos Search Bar</label>
@@ -21,6 +22,7 @@ return (
       />
   </div>
 </form>
+</div>
   );
 };
 
